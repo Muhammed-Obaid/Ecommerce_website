@@ -1,0 +1,28 @@
+.mobile-nav{
+    width: 340px;
+    width: 30%;
+}
+.mobile-nav h2{
+    text-align: center;
+    padding: 5px auto;
+    margin: 5px;
+}
+.mobile-nav .brand-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.brand-buttons button{
+    width: 80%;
+    border: none;
+    padding: 14px;
+    margin: 8px auto;
+    border-radius: 22px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+@media screen and (max-width: 600px) {
+    .mobile-nav{
+        width: 100%;
+        padding: 3px 10px;
+    }
+    
+}
